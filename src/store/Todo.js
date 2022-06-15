@@ -4,7 +4,6 @@ const Todo = ({value}) => {
   return (
     <div>
       {value.name}
-      
     </div>
   );
 }

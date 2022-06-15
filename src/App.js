@@ -1,11 +1,11 @@
 import React from 'react'
-import TodoContext from './store/TodoContext'
+import ToList from './ToList'
 
 function App() {
   return (
     <>
       <div className="p-5">
-      <TodoContext/>
+        <ToList/>
       </div>
     </>
   )
