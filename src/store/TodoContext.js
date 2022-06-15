@@ -9,7 +9,7 @@ function TodoContext() {
     switch(action.type) {
 
       case "ADD":
-        return [{id:Date.now(), name: action.payload.name}]
+        return [...state,{id:Date.now(), name: action.payload.name}]
       default: return state  
     }
 
