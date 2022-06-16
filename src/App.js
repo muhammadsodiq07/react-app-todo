@@ -3,11 +3,9 @@ import ToList from './ToList'
 
 function App() {
   return (
-    <>
-      <div className="p-5">
-        <ToList/>
-      </div>
-    </>
+    <div className="p-5">
+      <ToList/>
+    </div>
   )
 }
 
